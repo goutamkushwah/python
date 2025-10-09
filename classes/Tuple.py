@@ -1,0 +1,8 @@
+ThisTuple=("apple","banana","cherry")
+print(ThisTuple)
+print(ThisTuple[1])
+print(ThisTuple[-1])
+print(ThisTuple[1:3])
+print(ThisTuple[1:])
+print(ThisTuple[:-1])
+print(len(ThisTuple))

@@ -1,0 +1,6 @@
+=== Snake Water Gun Game Scoreboard ===
+You: 1
+Computer: 2
+Ties: 0
+
+Thanks for playing!
