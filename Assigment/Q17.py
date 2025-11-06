@@ -11,3 +11,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+#  folder structure:
+
+# Assigment/
+# │
+# ├── __init__.py
+# ├── arithmetic/
+# │   ├── __init__.py
+# │   ├── add.py
+# │   └── sub.py
+# └── main.py
