@@ -47,3 +47,25 @@ g.insert(1,1.5)
 print(g)
 g.extend([5,6,7])
 print(g)
+g.clear()
+print(g)
+go = [10,20,30,30,30,40,50,60,70,80,90]
+print(go.count(30))
+print(go.index(50))
+ra = [1,2,4,5,3,10,9,8,7,6]
+print(ra)
+ra.sort()
+print(ra)
+ra.sort(reverse=True)
+print(ra)
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("banana")
+print(thislist)
+thislist.pop(1)
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+del thislist[0]
+print(thislist)
+numbers = [1, 2, 3, 4, 5]
+squares = [x*x for x in numbers]
+print(squares)
