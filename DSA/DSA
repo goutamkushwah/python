@@ -1,0 +1,122 @@
+🧭 DSA Roadmap in Python
+🔰 LEVEL 1: Python Foundation
+
+Variables & Data Types
+Conditional Statements (if-else)
+Loops (for, while)
+Functions
+Recursion
+List, Tuple, Set, Dictionary
+Practice
+Fibonacci
+Factorial
+Palindrome
+Prime number
+
+⏱️ LEVEL 2: Time & Space Complexity
+
+Big-O Notation
+Best / Worst / Average Case
+
+📦 LEVEL 3: Arrays & Strings
+
+Array traversal
+Insert / Delete
+Reverse array
+Two-pointer technique
+Sliding window
+
+Problems
+Max & Min element
+Remove duplicates
+Count vowels & consonants
+Longest substring
+
+🔍 LEVEL 4: Searching Algorithms
+
+Linear Search
+Binary Search
+
+Problems
+First & last occurrence
+Search in sorted array
+
+🔃 LEVEL 5: Sorting Algorithms
+Algorithms
+Bubble Sort
+Selection Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+Focus
+
+📚 LEVEL 6: Stack & Queue
+\
+Stack (LIFO)
+Push, Pop, Peek
+Infix → Postfix
+Balanced parentheses
+
+Queue (FIFO)
+Simple Queue
+Circular Queue
+Deque
+
+
+
+🔗 LEVEL 7: Linked List
+
+Singly Linked List
+Doubly Linked List
+Circular Linked List
+
+Problems
+Reverse linked list
+Detect loop
+Middle element
+
+ LEVEL 8: Hashing
+Dictionary
+Set
+Hash functions
+
+Problems
+requency count
+two Sum
+First non-repeating character
+
+🌳 LEVEL 9: Trees
+
+Binary Tree
+Binary Search Tree (BST)
+Tree Traversals
+Height & Diameter
+Problems
+Lowest Common Ancestor
+Level order traversal
+
+
+ LEVEL 10: Graphs
+Graph representation
+BFS
+DFS
+Cycle detection
+Problems
+Connected components
+Shortest path (intro)
+
+🔁 LEVEL 11: Recursion & Backtracking
+N-Queen
+Permutations
+Subsets
+
+
+
+🧮 LEVEL 12: Dynamic Programming (Advanced)
+Memoization
+Tabulation
+Problems
+Fibonacci
+Knapsack
+Longest Common Subsequence
+Coin Change
