@@ -1,0 +1,100 @@
+### 🔹 Time Complexity
+
+* Measures **how runtime grows** with input size (n)
+* Counts **operations**, not seconds
+
+### 🔹 Space Complexity
+
+* Measures **extra memory used** by an algorithm
+
+---
+
+## 📊 Big-O Notation (Growth Rate)
+
+| Big-O      | Name        | Typical Example      |
+| ---------- | ----------- | -------------------- |
+| O(1)       | Constant    | Access array element |
+| O(log n)   | Logarithmic | Binary Search        |
+| O(n)       | Linear      | Single loop          |
+| O(n log n) | Linear-Log  | Merge Sort           |
+| O(n²)      | Quadratic   | Nested loops         |
+| O(2ⁿ)      | Exponential | Recursive Fibonacci  |
+
+---
+
+## 🔁 Best, Worst & Average Case
+
+| Case    | Meaning       | Example (Linear Search)         |
+| ------- | ------------- | ------------------------------- |
+| Best    | Minimum time  | Element at first index → O(1)   |
+| Average | Expected time | Element in middle → O(n)        |
+| Worst   | Maximum time  | Element last / not found → O(n) |
+
+---
+
+## 🧠 Full Explanation (Exam + Interview Ready)
+
+### 1️⃣ Time Complexity
+
+Shows how execution time **increases with input size**.
+
+Example:
+
+```python
+for i in range(n):
+    print(i)
+```
+
+➡️ Runs n times → **O(n)**
+
+---
+
+### 2️⃣ Space Complexity
+
+Extra memory required excluding input.
+
+```python
+def func(n):
+    x = 10
+```
+
+➡️ **O(1)** (constant space)
+
+```python
+def func(n):
+    arr = [0] * n
+```
+
+➡️ **O(n)** (linear space)
+
+---
+
+### 3️⃣ Why Big-O ignores constants
+
+```python
+for i in range(n):
+    print(i)
+for i in range(n):
+    print(i)
+```
+
+Operations = 2n → **O(n)**
+
+👉 Constants don’t matter for large input sizes
+
+---
+
+### 4️⃣ Time vs Space Trade-Off
+
+* More memory → faster execution
+* Less memory → slower execution
+
+Choose based on **constraints**
+
+---
+* Time Complexity → Speed
+* Space Complexity → Memory
+* Big-O → Growth rate
+* Best / Worst / Avg → Performance cases
+
+---
