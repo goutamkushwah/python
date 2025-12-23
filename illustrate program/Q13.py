@@ -1,21 +1,15 @@
-<<<<<<< HEAD
 # Date - 23/11/2025
-# # WAP to count number of words in a text file
-file = open("D:\python\cource\illustrate_program\text.txt", "r")
-data = file.read()
+# WAP to count number of words in a text file
 
-words = data.split()
-print("Word count =", len(words))
+import os
 
-file.close()
-=======
-# Date - 23/11/2025
-# # WAP to count number of words in a text file
-file = open("D:\python\cource\illustrate_program\text.txt", "r")
-data = file.read()
+path = r"D:\python\cource\illustrate program\text.txt"  # use raw string for Windows path
 
-words = data.split()
-print("Word count =", len(words))
-
-file.close()
->>>>>>> 26cc84673f9c4c64d6378a4e42a701fed508568a
+try:
+    with open(path, "r", encoding="utf-8") as f:
+        word_count = sum(len(line.split()) for line in f)
+    print("Word count =", word_count)
+except FileNotFoundError:
+    print(f"Error: file not found: {os.path.abspath(path)}")
+except UnicodeDecodeError:
+    print("Error: could not decode file. Try a different encoding (e.g. 'latin-1').")
