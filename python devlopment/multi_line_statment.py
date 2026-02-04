@@ -1,0 +1,3 @@
+total = 10 + 20 + 30 + \
+        40 + 50 + 60
+print(total)  # Output: 210
