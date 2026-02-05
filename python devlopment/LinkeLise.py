@@ -1,0 +1,13 @@
+from collections import deque  
+list = deque([])               
+print(type(list))    
+print(list)   
+list.append(10)
+list.append(20)
+print(list)
+list.appendleft(3)
+print(list)
+list.pop()
+print(list)
+list.popleft()
+print(list)
