@@ -31,7 +31,6 @@ class LinkedList:
         """Delete a node by value"""
         current = self.head
 
-        # If head node itself holds the key
         if current and current.data == key:
             self.head = current.next
             current = None
@@ -42,7 +41,7 @@ class LinkedList:
             prev = current
             current = current.next
 
-        if current is None:  # key not found
+        if current is None:
             return
 
         prev.next = current.next
@@ -63,10 +62,6 @@ class LinkedList:
             yield current.data
             current = current.next
 
-
-# --------------------------
-# Example usage
-# --------------------------
 if __name__ == "__main__":
     ll = LinkedList()
 
@@ -76,11 +71,8 @@ if __name__ == "__main__":
 
     ll.prepend(5)
 
-    ll.display()   # Output: 5 -> 10 -> 20 -> 30 -> None
-
+    ll.display()   
     ll.delete(20)
-    ll.display()   # Output: 5 -> 10 -> 30 -> None
-
-    # Iterating using for loop
+    ll.display()   
     for value in ll:
         print("Iterated:", value)
