@@ -114,4 +114,22 @@
 # df= pd.DataFrame(emp_details['Employee'])
 # print(df)
 
+# def hash_function(text):
+#    return sum(ord(character) for character in text)
+# print(hash_function("Goutam"))
+# print(hash_function("Goutam"))
+
+# def hash_function(key):
+#      return sum(ord(character) for character in str(key))
+
+# print(hash_function("Lorem"))
+# print(hash_function(3.14))
+# print(hash_function(True))
+# def hash_function(key):
+#     return sum(ord(character) for character in repr(key))
+
+# print(hash_function("Lorem"))
+# print(hash_function(3.14))
+# print(hash_function(True))
+# print(repr(3.14))
 
