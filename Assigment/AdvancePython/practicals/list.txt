@@ -1,0 +1,22 @@
+1. WAP for implementing all operation of string in python.
+2. WAP for working with numeric data types in python.
+3. WAP for all boolean operations and functions in python.
+4. WAP for working with list, tuple and dictionary in python.
+5. WAP for implementing classes and objects in python.
+6. WAP for implementing abstraction in python.
+7. WAP for implementing polymorphism in python.
+8. WAP for implementing different types of inheritance in python.
+9. WAP to implement encapsulation in python.
+10.WAp for iterator in python.
+11.WAP for generator in python.
+12.WAP for decoreator in python.
+13.WAP to implement error and exception handling in python.
+14.WAP For File Handling(Create, Write, Read, Append and Copy File) in AP.
+15.WAP for Event Handling in AP.
+16.WAP for Components Handling in AP.
+17.WAP for SQL Statements(Create a table, Insert records, Update records, Delete records) in AP.           
+18.WAP for Numpy in AP.
+19.WAP for Pandas in AP.
+20.WAP for Data Visualization (Matplotlib) in AP.
+21.WAP for Seaborn Statistical Plots in AP. 
+22.WAP for Scikit-Learn(Machine Learning) in AP.
