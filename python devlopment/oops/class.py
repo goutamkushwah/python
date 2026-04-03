@@ -1,0 +1,20 @@
+class employee:
+    pass
+emp_1=employee()
+emp_2=employee()
+print(emp_1)
+print(emp_2)
+emp_1.first='Goutam'
+emp_1.last='Kushwah'
+emp_1.gmail='goutam.kushwah@example.com'
+emp_1.salary=50000
+print(emp_1.first)
+print(emp_1.last)
+print(emp_1.gmail)
+emp_2.first='Shiv'
+emp_2.last='Kushwah'
+emp_2.gmail='shiv.kushwah@example.com'
+emp_2.salary=60000
+print(emp_2.first)
+print(emp_2.last)
+print(emp_2.gmail)
