@@ -29,3 +29,23 @@ factorials = [factorial(i) for i in range(1, 10)]
 print(factorials)
 
 # more filtering 
+
+evens = [i for i in range(20) if i % 2 == 0]
+print(evens)
+
+even_cubes = [i ** 3 for i in range(2, 22) if i % 2 == 0]
+print(even_cubes)
+
+# nested loop 
+coordinates = [(i, j) for i in range(5) for j in range(4)]
+print(coordinates)
+
+coordinates = [(i, j, k) for i in range(3) for j in range(3) for k in range(2)]
+print(coordinates)
+
+# 2D list 
+g=[[0,0,0]for i in range(3)]
+print(g)
+
+h=[[0 for j in range(30)] for i in range(5)]
+print(h)

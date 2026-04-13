@@ -6,3 +6,5 @@ print(a)
 
 # square = [i**2 if i%4==0 else i for i in range(15)]
 # print(square)
+b  =  [ i**3 if i%4==0 else 0 for i in range(15)] 
+print (b)
