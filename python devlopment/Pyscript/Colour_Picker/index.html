@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Color Picker</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <!-- PyScript -->
+    <link rel="stylesheet"
+          href="https://pyscript.net/releases/2026.3.1/core.css">
+
+    <script type="module"
+            src="https://pyscript.net/releases/2026.3.1/core.js">
+    </script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="box">
+
+    <h1>🎨 Color Picker</h1>
+
+    <input type="color" id="colorPicker">
+
+    <button id="applyBtn">
+        Apply Color
+    </button>
+
+    <h2 id="colorCode">
+        HEX: #ffffff
+    </h2>
+
+</div>
+
+<!-- Python -->
+<py-script src="main.py"></py-script>
+
+</body>
+</html>
