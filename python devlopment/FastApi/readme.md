@@ -1,3 +1,2 @@
-project based on FastAPI
-
-Notes App - https://github.com/goutamkushwah/NotesApp
+project based on plotly desh   
+NotesApp - https://github.com/goutamkushwah/NotesApp.git
