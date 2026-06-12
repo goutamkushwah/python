@@ -4,4 +4,4 @@ a = []
 b = a
 c = a
 
-print(sys.getrefcount(a))
+print(sys.getrefcount(a))       
